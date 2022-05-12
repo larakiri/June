@@ -1,13 +1,13 @@
-<!DOCTYPE html>
+<x-layout>
+        @include ('_post-header')
 
-<title>My Blog</title>
-<link rel="stylesheet" href="/app.css">
+        <main class="max-w-6xl mx-auto mt-6 lg:mt-20 space-y-6">
+           @if ($posts->count())
+           <x-posts-grid :posts="$posts" />
 
-<body>
-  <?php foreach ($posts as $post) : ?>
+            @else
+            <p class="text-center"> Posts are gone. Hope is gone. Nothing to rely anymore... </p>
+            @endif
+        </main>
 
-    <article>
-        <?= $post; ?>
-    </article>
-  <?php endforeach; ?>
-</body>
+</x-layout>
