@@ -13,13 +13,13 @@
                 scroll-behavior: smooth;
              }
     </style>
-        <header id="toup" class="bg-gray-200 rounded-xl py-2 px-4">
+        <header class="bg-gray-200 rounded-xl py-2 px-4">
         <section class="px-2 py-4">
             <nav class="md:flex md:justify-between md:items-center">
                 <div>
-                    <button class="text-xs font-semibold text-white uppercase py-1 px-5 bg-red-300 rounded-xl text-center">
-                        <a href="/">Go home
-                            <img src="/images/def.svg" class="" width="200" alt="logo" >
+                    <button class="text-xs font-semibold text-white uppercase py-1 bg-red-300 rounded-xl text-center">
+                        <a href="/">home
+                            <img src="/images/def.svg" width="200" alt="logo" >
                         </a>
                     </button>
                 </div>
@@ -54,7 +54,7 @@
                 @endauth
 
                 <a href="#tobottom" class="bg-red-300 ml-3 rounded-full text-xs font-semibold text-white uppercase py-3 px-5">
-                    Get low
+                    go down
                 </a>
             </div>
         </nav>
@@ -62,15 +62,12 @@
 
         {{ $slot }}
 
-            <footer id="tobottom" class="bg-gray-200 rounded-xl text-right py-6 mt-8">
+            <footer id="tobottom" class="bg-gray-200 rounded-xl text-right mt-20">
                 <a href="#tobottom" class="hidden">
                     Smooth
-                </a>
-                <a href="#toup" class="bg-red-400 rounded-full text-xs font-semibold text-white uppercase py-3 mr-6 px-4">
-                    Get high
-                </a>
-                    
+                </a>                  
             </footer>
         </section>
     <x-flash />
 </body>
+

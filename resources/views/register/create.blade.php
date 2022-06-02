@@ -1,8 +1,8 @@
 <x-layout>
     <section class="px-6 py-8">
        
-        <main class="max-w-lg mx-auto mt-10 bg-blue-100 border border-blue-200 p-6 rounded-xl">
-            <h2 class="text-center text-blue-400 font-bold text-xl">Become one of us!</h1>
+        <main class="max-w-lg mx-auto mt-10 bg-red-200 border border-blue-200 p-6 rounded-xl">
+            <h2 class="text-center text-white-400 font-bold text-xl">We are waiting for you!</h1>
             <form method="POST" action="/register" class="mt-10">
 
             @csrf

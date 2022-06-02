@@ -1,6 +1,6 @@
 <header class="max-w-xl mx-auto mt-20 text-center">
             <h1 class="text-5xl">
-                <span class="text-#FFF-400">Moments blog</span>
+                <span class="text-#FFF-400">Your Moments blog</span>
             </h1>
 
             <div class="space-y-2 lg:space-y-0 lg:space-x-4 mt-4">

@@ -32,4 +32,3 @@ Route::middleware('can:admin')->group(function () {
     Route::post('admin/{user:username}/followings', [FollowersController::class, 'store']);
     Route::delete('admin/followings/{user:username}', [FollowersController::class, 'destroy']);
 });
-
